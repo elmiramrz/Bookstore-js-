@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--
+Student Name:Elmira Mirza
+Student Id:130828197
+email:emirza2@myseneca.ca
+-->
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Family Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  
+  </head>
+  <body>
+<div id ="Container">
+  <div id="notdiv">
+    <p > During to COVID19 some deliveries may last more than one week</p>
+  </div>
+<div id="headdiv">
+  <div class="gridlogo">
+    <img  class="logo" src="\images\family bookstore Logo (1) - Copy.png"></img>
+  </div>
+  <div class="dmenu">
+    
+  </div>
+  <div class="submenu">
+
+  </div>
+  <div class="divhome"> 
+<a  href="\src\index.html">Home</a>
+<a href="\src\contact.html">Contact Us</a>
+  </div>
+
+  </div>
+
+<div id="mainpicdiv">
+    
+    <form name="feedback" id="fcont" action="https://httpbin.org/post" method="post">
+        <label for="feedback-user">Name</label>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input
+          id="feedback-user"
+          name="username"
+          autocomplete="username"
+          type="text"
+          autofocus
+          tabindex="0"
+          required
+        />
+        <br>
+        <label for="feedback-email">Email</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+          id="feedback-email"
+          name="email"
+          autocomplete="email"
+          type="email"
+          tabindex="2"
+          required
+        />
+        <br>
+        <label for="feedback-fullname">Address</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+          id="feedback-fullname"
+          name="name"
+          autocomplete="name"
+          type="text"
+          tabindex="1"
+          required
+        />
+        <br>
+        <label for="feedback-date">City</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input
+        type="text"
+        list="feedback-problems"
+        name="problem"
+        autocomplete
+        tabindex="4"
+        required
+      />
+        <datalist id="feedback-problems" >
+            <option value="Toronto"> </option>
+            <option value="Montreal"> </option>
+            <option value="Calgary"> </option>
+            <option value="Ottawa"> </option>
+            <option value="Edmonton"> </option>
+            <option value="Mississauga"> </option>
+            <option value="Winnipeg"> </option>
+            <option value="Vancouver"> </option>
+          </datalist>
+          <br>
+        <label for="feedback-date">Postal Code</label>
+        <input id="feedback-date" name="date" type="text" tabindex="3" pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$" required/>
+        <br>
+<div class="radios">
+  
+    <label class="lrd" >
+        <input type="radio" name="optradio" id="qu" class="rdin" onclick="hide();" checked>Question
+      </label>
+      <label class="lrd" >
+        <input type="radio" name="optradio" id="cmn" onclick="hide();"  class="rdin">Comment
+      </label>
+      <label class="lrd" width="100" >
+        <input type="radio" name="optradio" id="ord" onclick="show();"  class="rdin">Order Problem
+      </label>
+     
+   
+</div>
+<br>
+<div id="dorder" style="display: none;">
+    <label for="ordernum" id="lnum">Order Number </label>
+    <input
+      type="number"
+   id="tOrder"
+      name="Order"
+  tabindex="6"
+    />
+
+</div>
+<br>
+<br>
+        <label for="message">Message </label>
+        <input
+          type="text"
+          name="message"
+    id="tmessage"
+          placeholder="Type Your message here..."
+          tabindex="4"
+        />
+       
+  
+      
+        <input type="text"  value="Elmira Mirza" hidden="true" id="feedback-file"  tabindex="6" />
+  
+        <div class="buttons">
+          <input type="submit" name="Submit" value="Submit" tabindex="7" />
+          <input type="reset" name="Reset" value="Reset" onClick="location.href='index.html'" tabindex="8" />
+        </div>
+      </form>
+</div>
+
+  <div id="contetndiv">
+   
+  </div>
+<div id="footerdiv">
+
+    <div class="grid_foterinfo">
+      <div class="onehalf">
+        <ul class="linklist">
+          
+          
+            <li><a href="/pages/about-nick-mayer">About Us</a></li>
+          
+            <li><a href="/blogs/press-media">PRESS &amp; MEDIA</a></li>
+          
+            <li><a href="/pages/contact-us">CONTACT US</a></li>
+          
+        </ul>
+      </div>
+      <div class="onehalf">
+        <ul class="linklist">
+          
+            
+              <li><a href="/pages/common-questions">Common Questions</a></li>
+            
+              <li><a href="/pages/licensing">Licensing</a></li>
+            
+              <li><a href="/pages/wholesale">Wholesale</a></li>
+            
+          
+        </ul>
+      </div>
+    </div>
+
+  <div class="gridfoot">
+    <ul class="util-nav">
+      <li><a href=""><img   class="imfoot" src="\images\facebook-square-brands.svg"></img></a></li>
+      
+      
+      <li>
+        
+      <a href=""><img class="imfoot" src="\images\twitter-brands.svg" ></a></img>
+        
+      </li>
+      <li><a href=""><img class="imfoot" src="\images\instagram-brands.svg"   >&nbsp;</img></a></li>
+      
+
+    </ul>
+
+    
+
+    
+  </div>
+  
+  <div class="gridlogo_fot">
+    <img  class="logo" src="\images\family bookstore Logo (1) - Copy.png"></img>
+  </div>
+  <form action="https://formspree.io/xgenqpbk" method="POST" class="fromstyle"  >
+    <label for="temail">Email: </label><input name="temail" type="email"></input>
+    <input type="submit" value="Subscribe" class="tsub"></input>
+  </form>
+</div>
+</div>
+</div>
+</body>
+</html>
+

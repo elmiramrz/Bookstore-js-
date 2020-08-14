@@ -1,0 +1,255 @@
+
+/*
+Student Name:Elmira Mirza
+Student Id:130828197
+email:emirza2@myseneca.ca
+*/
+#Container{min-width:1024px;
+    /*background-color: blue;*/
+min-height: 1630px;}
+#headdiv{
+    background-color:#ffb6b6;
+    min-width: 100%;
+    min-height: 230px;
+    
+}
+#picdiv{
+    background-color:#fde2e2;
+   
+    min-width: 100%;
+    min-height: 585px;
+}
+#mainpicdiv{
+    background-color:#fde2e2;
+   
+    min-width: 100%;
+    min-height: 585px;
+}
+.submenu{
+    background-color:#eff3c6;
+    width:500pt;
+    height: 500pt;
+    float:left;
+    margin-right: 30%;
+    margin-left: 8%;
+    margin-top: -2%;
+    box-shadow: 5px 10px #dbdbdb;
+display: none;
+}
+.dmenu ul{
+    padding: 0;
+    list-style: none;
+   
+}
+.dmenu ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+   
+}
+.dmenu ul li a{
+    display: block;
+    padding: 8px 25px;
+
+    color: #333;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.dmenu ul li a:hover{
+    color: #fff;
+    background: #939393;
+}
+.dmenu ul li ul.dropdown{
+    min-width: 200pt;
+    background: #eff3c6;
+    box-shadow: 5px 10px #dbdbdb;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+   
+}
+.dmenu ul li a img{width:30pt;height: 30pt;padding-right: 5%; }
+
+.dmenu ul li:hover ul.dropdown{
+    display: block;	
+}
+.dmenu ul li ul.dropdown li{
+    display: block;
+}
+.dmenu{
+
+    float: left;
+    margin-left: 30%;
+    width: 300pt;
+    height: 90%;
+}
+.dmenu li a{text-decoration: none; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;}
+    
+.dropdown li a {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+       
+.griditem{float: right;
+    margin-right: -12%;
+margin-top: 3%;
+    width: 10%;
+    height: 90%;    
+
+}
+#sub{
+    
+    width: 300pt;
+    height:20pt;
+    padding: 15pt;
+}
+  input[type="submit"],
+  input[type="reset"] {
+    width: 150px;
+    background-color:grey;
+    color: white;
+  }
+
+  #fcont label{
+padding: 20pt;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+font-weight: bold;
+width: 100pt;
+height: 50pt;
+   }
+
+  
+    input[type="number"],input[type="text"],input[type="email"]{
+       width: 40%;
+       height: 30pt;
+       margin-bottom: 3%;
+   }
+   
+   .lrd{width: 60%;font-size: medium;}
+ 
+  input[type="submit"]:hover,
+  input[type="submit"]:focus,
+  input[type="reset"]:hover,
+  input[type="reset"]:focus {
+    background-color: #0069d9;
+  }
+  input[type="submit"], input[type="reset"]{height: 30pt;border-radius: 2%;}
+  #cmn,#qu,#ord{ width: 7pt; height: 7pt;}
+  textarea {
+    grid-column: 1 / 3;
+  }
+ 
+  
+  .buttons {
+    grid-column: 2 / 3;
+    text-align: right;
+  }
+  #tmessage{
+      width: 100%;
+      height:200px;
+  }
+.backimg{
+
+    width:100%;
+    height:100%;  
+}
+.grid_foterinfo{
+    float:left;
+    padding: 10pt;
+    margin: 5pt;
+    width: 40%;
+    display: flex;
+}
+.divhome {
+    margin-right: 2%;
+margin-top: 1.9%;
+width: 10%;
+height: 10%;
+float: right;
+}
+.divhome a{
+    text-decoration: none;
+    color: black;
+    padding: 5pt;
+    font-weight: bold;
+ 
+}
+#contetndiv
+{
+    background-color: #aacfcf;
+min-width: 100%;
+min-height: 585px;
+}
+#contetndiv a {text-decoration: none;float:left;margin-left: 35%;color:#3b6978;padding-top: 7%;}
+#contetndiv img{width:50%;height: 60%; margin-left: 25%;padding-top: 4%;} 
+#Firstrow,#Secondrow{width: 97%; height:250px ; display:flex; padding: 15pt; }
+#contetndiv a:hover{zoom: 120%;z-index: 5px;}
+#contetndiv img:hover{position:relative;transform: scale(1.1);
+    }
+#dFirst{background-color: #ea907a; width: 25%;height:100%;margin-right: 30pt;margin-left: 40pt;}
+#dSecond{background-color:#fbc687; width: 25%;height:100%;margin-right: 30pt;}
+#dThird{background-color:#f4f7c5; width: 25%;height:100%;}
+#dFourth{background-color:#cccccc; width: 25%;height:100%;margin-right: 30pt;margin-left: 40pt;}
+#dFifth{background-color:#efee9d; width: 25%;height:100%;margin-left: 31.4%;}
+#dSixth{background-color:#f9c49a; width: 25%;height:100%;}
+.linklist li{display: block;}
+.linklist li a{  list-style-type: none; text-decoration: none;color:black;}
+.onehalf{
+  width: 50%;
+  height: 100%;
+    padding: 2pt;
+    position: relative;
+}
+#footerdiv{
+    background-color:#679b9b;
+    min-width: 100%;
+    min-height:230px;
+    }
+    .fromstyle{float: right;
+    position: relative;
+    padding: 10pt;
+    margin-top: -45pt;
+    }
+    .gridlogo_fot{
+        float: right;
+      margin-right: 20pt;
+   
+    margin-top:-40pt ;
+    }
+    .tsub{background-color: #fbc687;width: 100pt;}
+    
+    .gridlogo{
+      padding: 20pt;
+margin: 20pt;
+        width:30pt;
+        height: 30pt;
+        float: left;}
+    .logo{
+        width:auto;
+        height:auto;
+    
+    }
+    li{ display: inline-block;
+        list-style-type:none; 
+        padding: 4pt; 
+       
+    }
+    .gridfoot
+    {margin-left: 45%;
+      padding: 10pt;  
+    }
+   img{ width: 15pt;
+    height: 15pt;}
+
+    #notdiv{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-family: fantasy;
+        background-color: white;
+    }
+   
